@@ -11,7 +11,7 @@ I created this PoC to combine these.
 
 ### TL;DR: Use `window.__TAURI_INVOKE__`
 
-Openblocks provides `openblocks-sdk` which supports embedding the app as React component. In this example, I embedded [this app](https://cloud.openblocks.dev/apps/63c2aa9b4c12c9123f95f4b4/preview) to tauri frontend. Also, I [edited css](./src/App.css) to fit body to viewport. Although I provided `appId` to `openblocks-sdk` to embed the app, openblocks developers will want to make it accept `appDsl` instead to get rid out of communication with their server.
+Openblocks provides `openblocks-sdk` which supports embedding the app as React component. In this example, I embedded [this app](https://cloud.openblocks.dev/apps/63c2aa9b4c12c9123f95f4b4/preview) to tauri frontend. Also, I [edited css](./src/App.css) to fit body to viewport. Although I provided `appId` to `openblocks-sdk` to embed the app, we can pass `appDsl` instead to get rid out of communication with their server. For more information, check out the branch [appdsl](https://github.com/qbx2/tauri-with-openblocks-poc/tree/appdsl).
 
 Openblocks supports `JavaScriptQuery` which allows us to execute arbitary code on frontend. Now we can let it invoke tauri using `window.__TAURI_INVOKE__`. That's all.
 
