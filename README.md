@@ -21,3 +21,7 @@ Yes. From the React component, add tauri event listener, then the Rust backend i
 Add `const appRef = useRef();` and add `ref={appRef}` to `<OpenblocksAppView />`.
 You can run queries: `appRef?.current?.comp.children.queries.children[0].getView().props.comp.execute()`.
 If you use OpenBlocks module, you can use `invokeMethod`. For example: `appRef?.current?.invokeMethod("callFromRust", ["value for param1"])`.
+
+## More demos?
+
+Check out [here](https://openblocks-dev.github.io/openblocks-sdk-demo/) for more `openblocks-sdk` demo.
