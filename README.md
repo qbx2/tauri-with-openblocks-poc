@@ -21,7 +21,10 @@ Openblocks supports `JavaScriptQuery` which allows us to execute arbitary code o
 
 Yes. From the React component, add tauri event listener, then the Rust backend is possible to send message to the frontend.
 Add `const appRef = useRef();` and add `ref={appRef}` to `<OpenblocksAppView />`.
+
 You can run queries: `appRef?.current?.comp.children.queries.children[0].getView().props.comp.execute()`.
+
+
 If you use OpenBlocks module, you can use `invokeMethod`. For example: `appRef?.current?.invokeMethod("callFromRust", ["value for param1"])`.
 
 ## More demos?
