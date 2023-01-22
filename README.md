@@ -1,5 +1,7 @@
 # Tauri + Openblocks PoC
 
+![screenshot](public/screenshot.png)
+
 [Tauri](https://tauri.app/) is an Electron alternative which uses rust application as its backend.
 [Openblocks](https://github.com/openblocks-dev/openblocks) is an open source Retool alternative which helps to build web UI fast.
 
