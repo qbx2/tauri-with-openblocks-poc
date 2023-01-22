@@ -57,7 +57,7 @@
         "fullscreen": false,
         "height": 600,
         "resizable": true,
-        "title": "tauri-openblocks-app2",
+        "title": "tauri-with-openblocks-poc",
         "width": 800
       }
     ]
